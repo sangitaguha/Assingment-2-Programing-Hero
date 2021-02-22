@@ -5,22 +5,29 @@ body {
 .container{
     border-top-color: burlywood;
     text-shadow: tomato;
+    height: 5px;
+    width: 5px;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 20px;
   }
-  h1 {
+  
+h1 {
     width: 5px;
     height: 10px;
 }
-  .panda-card-footer{
+.panda-card-footer{
     width: 0;
     background-color: tan;
     margin: 0;
-  }
-  .panda-card{
+}
+.panda-card{
       border:0;
       border: wheat;
-  }
+}
+.col{
+  font-size: 50px;
+}
