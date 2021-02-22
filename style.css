@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+  }
+
+.container{
+    border-top-color: burlywood;
+    text-shadow: tomato;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    width: 5px;
+    height: 10px;
+}
+  .panda-card-footer{
+    width: 0;
+    background-color: tan;
+    margin: 0;
+  }
+  .panda-card{
+      border:0;
+      border: wheat;
+  }
