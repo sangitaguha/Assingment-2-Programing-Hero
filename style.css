@@ -1,12 +1,12 @@
 body {
-    background-color: lightblue;
+    background-color: salmon;
   }
 
 .container{
-    border-top-color: burlywood;
-    text-shadow: tomato;
-    height: 5px;
-    width: 5px;
+    border-top-color: rgb(248, 148, 18);
+    text-shadow: rgb(219, 148, 54);
+    height: 2px;
+    width: 2px;
 }
 ul {
     list-style-type: none;
@@ -21,13 +21,28 @@ h1 {
 }
 .panda-card-footer{
     width: 0;
-    background-color: tan;
     margin: 0;
+    height: 2px;
 }
 .panda-card{
       border:0;
-      border: wheat;
+      background-color: tomato;
+      border-radius: 0;
+      
 }
-.col{
-  font-size: 50px;
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+@media screen and (min-width: 480px) {
+  body {
+    background-color: salmon;
+  }
+  .card{
+    border-radius: 0;
+    border-color: tomato;
+  }
+
 }
